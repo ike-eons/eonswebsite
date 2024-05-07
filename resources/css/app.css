@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Inter, sans-serif;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 100vh;
+}
+
+.maintenance {
+    /* padding: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maintenance .logo {
+    padding-top: 20px;
+}
+
+.maintenance .title {
+    font-size: 50px;
+    text-align: center;
+    @media (max-width: 992px) {
+        font-size: 30px;
+    }
+}
+
+.maintenance .message {
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    /* background-color: #f3f2f2; */
+    padding: 5px;
+    color: black;
+}
